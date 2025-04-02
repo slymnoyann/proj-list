@@ -5,10 +5,23 @@ export const projects: Project[] = [
   {
     type: 'project',
     name: 'GasPump',
-    blurb: 'Gaspump is a concentrated liquidity DEX built within the Rise ecosystem, focusing on capital efficiency by narrowing liquidity ranges to reduce slippage while enhancing trading execution for users. The platform’s dynamic fee adjustments and liquidity optimization tools ensure a seamless trading experience with maximized returns for liquidity providers. Gaspump’s design fosters a highly efficient ecosystem for traders, ensuring minimal slippage and improved capital utilization through precision liquidity allocation.',
+    blurb: 'Gaspump is a concentrated liquidity DEX in the Rise ecosystem, optimizing capital efficiency and minimizing slippage through narrow liquidity ranges. Dynamic fees and smart liquidity tools enhance trading and boost returns for liquidity providers.',
     logo: '/projects/gaspump/logo.png',
     banner: '/projects/gaspump/banner.png',
+    x: 'https://x.com/Gaspump_swap',
+    // website: '',
     tags: ['DeFi', 'AMM', 'DEX'],
+  },
+  {
+    type: 'project',
+    name: 'For The Kingdom',
+    blurb: "For The Kingdom is a web based MMORPG with a player driven economy and fully onchain gameplay. Players can risk tokens, create and monetize assets, and build custom logic and mods. Everything from game logic to world state lives on the blockchain.",
+    logo: '/projects/forthekingdom/logo.png',
+    banner: '/projects/forthekingdom/banner.png',
+    x: 'https://x.com/4thekingdom_xyz',
+    website: 'https://forthekingdom.xyz/',
+    docs: 'https://docs.forthekingdom.xyz/ftk',
+    tags: ['Gaming'],
   },
   // Tooling
   {
@@ -17,6 +30,7 @@ export const projects: Project[] = [
     blurb: 'Alchemy is a leading Web3 development platform that provides powerful tools and infrastructure for building decentralized applications.',
     logo: '/projects/alchemy/logo.png',
     banner: '/projects/alchemy/banner.png',
+    website: 'https://alchemy.com/',
     tags: ['RPC', 'AA', 'NFT API', 'Token API', 'Data'],
   },
   {
@@ -25,6 +39,7 @@ export const projects: Project[] = [
     blurb: "Goldsky is Web3’s Realtime Data Platform. Build powerful dApps faster with high-performance blockchain indexing, instant subgraphs, and custom data streaming pipelines.",
     logo: '/projects/goldsky/logo.png',
     banner: '/projects/goldsky/banner.png',
+    website: 'https://goldsky.com/',
     tags: ['Indexing', 'Data'],
   },
 ];
