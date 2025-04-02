@@ -1,6 +1,46 @@
-# Contributing to RISE Project Directory
+# RISE Project Directory
 
 This repository serves as a directory of all RISE apps, tools, and infrastructure that will be displayed on the RISE website.
+
+## Development
+
+### Setup
+
+```bash
+# Install dependencies
+npm install
+```
+
+### Building
+
+```bash
+# Build the project
+npm run build
+```
+
+The compiled output will be in the `dist` directory.
+
+### Testing
+
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Run a specific test
+npm test -- -t "test name"
+```
+
+**Important:** All tests must pass before submitting a pull request. The CI pipeline will reject any PRs with failing tests.
+
+### Linting
+
+```bash
+# Run linter
+npm run lint
+```
 
 ## How to Add Your Project
 
@@ -24,10 +64,16 @@ This repository serves as a directory of all RISE apps, tools, and infrastructur
      blurb: 'A detailed description of your project (max 150 words)',
      logo: '/projects/your-project-name/logo.png',
      banner: '/projects/your-project-name/banner.png',
+     tags: ['crypto', 'payments'], // Choose from available tags in types.ts
    }
    ```
 
-4. **Submit a pull request** with your changes.
+4. **Run tests to ensure everything works**:
+   ```bash
+   npm test
+   ```
+
+5. **Submit a pull request** with your changes.
 
 ## Requirements
 
@@ -36,7 +82,28 @@ This repository serves as a directory of all RISE apps, tools, and infrastructur
 - Banner must be 1500x500px
 - Blurb should be 150 words maximum
 - All fields are required
+- All tests must pass
+
+## Project Structure
+
+- `src/` - TypeScript source code
+  - `types.ts` - Type definitions for projects
+  - `directory.ts` - Project listings data
+  - `__tests__/` - Test files
+- `projects/` - Project assets (logos, banners)
+  - `<project-name>/` - Assets for each project
+
+## CI/CD
+
+This repository uses GitHub Actions for continuous integration:
+
+- **Automatic Testing**: Every pull request and push to main triggers automatic testing
+- **Build Verification**: The CI pipeline ensures the project builds successfully
+- **Linting**: Code style and quality are automatically checked
+- **Multiple Node Versions**: Tests run on Node.js 18.x and 20.x
+
+[![CI](https://github.com/yourusername/proj-list/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/proj-list/actions/workflows/ci.yml)
 
 ## Review Process
 
-Once you submit your PR, the RISE team will review your submission. We may request changes if necessary. After approval, your project will be added to the official RISE website directory.
+Once you submit your PR, the RISE team will review your submission. All CI checks must pass before a PR can be merged. We may request changes if necessary. After approval, your project will be added to the official RISE website directories.
