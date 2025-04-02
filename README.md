@@ -2,46 +2,6 @@
 
 This repository serves as a directory of all RISE apps, tools, and infrastructure that will be displayed on the RISE website.
 
-## Development
-
-### Setup
-
-```bash
-# Install dependencies
-npm install
-```
-
-### Building
-
-```bash
-# Build the project
-npm run build
-```
-
-The compiled output will be in the `dist` directory.
-
-### Testing
-
-```bash
-# Run all tests
-npm test
-
-# Run tests in watch mode
-npm run test:watch
-
-# Run a specific test
-npm test -- -t "test name"
-```
-
-**Important:** All tests must pass before submitting a pull request. The CI pipeline will reject any PRs with failing tests.
-
-### Linting
-
-```bash
-# Run linter
-npm run lint
-```
-
 ## How to Add Your Project
 
 1. **Fork this repository** and create a new branch for your addition.
@@ -83,6 +43,48 @@ npm run lint
 - Blurb should be 150 words maximum
 - All fields are required
 - All tests must pass
+
+## Development
+
+### Setup
+
+```bash
+# Install dependencies
+npm install
+```
+
+### Building
+
+```bash
+# Build the project
+npm run build
+```
+
+The compiled output will be in the `dist` directory.
+
+### Testing
+
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Run a specific test
+npm test -- -t "test name"
+```
+
+**Important:** All tests must pass before submitting a pull request. The CI pipeline will reject any PRs with failing tests.
+
+### Linting
+
+```bash
+# Run linter
+npm run lint
+```
+
+
 
 ## Project Structure
 
