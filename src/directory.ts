@@ -23,6 +23,34 @@ export const projects: Project[] = [
     docs: 'https://docs.forthekingdom.xyz/ftk',
     tags: ['Gaming'],
   },
+  {
+    type: 'project',
+    name: 'LeoFi',
+    blurb: 'LeoFi is a modular decentralized exchange (DEX) that redefines liquidity management and trading efficiency. It empowers traders with ultra-low fees and liquidity providers with customizable yield models via hook-integrated custom pools.',
+    logo: '/projects/leofi/LeoFi_asset.png',
+    banner: '/projects/leofi/LeoFi_asset.png',
+    x: 'https://x.com/LeoFi_Hub',
+    website: 'https://etn.leofi.xyz/',
+    tags: ['DEX', 'AMM', 'DeFi'],
+  },
+  {
+    type: 'project',
+    name: 'GTX',
+    blurb: 'Fully on-chain CLOB DEX on RISE Network. Efficient order-matching engine with DEX trustlessness. High-performance trading, low fees, and advanced order types.',
+    logo: '/projects/gtx/gtx-logo-square-400x400.png',
+    banner: '/projects/gtx/GTXBanner.png',
+    x: 'https://x.com/gtxfi_official',
+    tags: ['DEX', 'DeFi'],
+  },
+  {
+    type: 'project',
+    name: 'Ultra',
+    blurb: 'Ultra is a decentralized exchange (DEX) on the RISE Network. It is a fully on-chain CLOB DEX with a focus on high-performance trading and low fees.',
+    logo: '/projects/ultra/ultraLogo.png',
+    banner: '/projects/ultra/ultraBanner.png',
+    x: 'https://x.com/ultr2025',
+    tags: ['DEX', 'DeFi'],
+  },
   // Tooling
   {
     type: 'tooling',
@@ -42,4 +70,5 @@ export const projects: Project[] = [
     website: 'https://goldsky.com/',
     tags: ['Indexing', 'Data'],
   },
+
 ];
