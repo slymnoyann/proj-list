@@ -100,5 +100,16 @@ export const projects: Project[] = [
     website: 'https://goldsky.com/',
     tags: ['Indexing', 'Data'],
   },
+  {
+    type: 'project',
+    name: 'NetSepio',
+    docs: 'https://docs.netsepio.com/',
+    x: 'https://x.com/netsepio',
+    blurb: "NetSepio powers a DePIN-backed internet that’s private, secure, and agentic - connecting users and AI agents through trusted, decentralized networks.",
+    logo: '/projects/netsepio/logo.png',
+    banner: '/projects/netsepio/banner.png',
+    website: 'https://netsepio.com/',
+    tags: ['Data'],
+  },
 
 ];
