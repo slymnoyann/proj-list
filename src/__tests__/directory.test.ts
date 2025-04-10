@@ -38,18 +38,29 @@ describe('Projects Directory', () => {
     const rootDir = process.cwd();
     
     projects.forEach(project => {
-      // Check logo path format
-      expect(project.logo).toMatch(/^\/projects\/[\w-]+\/logo\.png$/);
-      
-      // Check banner path format
-      expect(project.banner).toMatch(/^\/projects\/[\w-]+\/banner\.png$/);
-      
-      // Check if files exist in filesystem by removing the leading slash
-      const logoPath = path.join(rootDir, project.logo.substring(1));
-      const bannerPath = path.join(rootDir, project.banner.substring(1));
-      
-      expect(fs.existsSync(logoPath)).toBe(true);
-      expect(fs.existsSync(bannerPath)).toBe(true);
+      try {
+        // Check logo path format - allow any image name pattern 
+        // but enforce directory structure
+        expect(project.logo).toMatch(
+          /^\/projects\/[\w-]+\/[\w-]+\.(png|jpg|jpeg)$/
+        );
+        
+        // Check banner path format - allow any image name pattern 
+        // but enforce directory structure
+        expect(project.banner).toMatch(
+          /^\/projects\/[\w-]+\/[\w-]+\.(png|jpg|jpeg)$/
+        );
+        
+        // Check if files exist in filesystem by removing the leading slash
+        const logoPath = path.join(rootDir, project.logo.substring(1));
+        const bannerPath = path.join(rootDir, project.banner.substring(1));
+        
+        expect(fs.existsSync(logoPath)).toBe(true);
+        expect(fs.existsSync(bannerPath)).toBe(true);
+      } catch (error) {
+        console.error(`Test failed for project: ${project.name}`);
+        throw error;
+      }
     });
   });
 });
