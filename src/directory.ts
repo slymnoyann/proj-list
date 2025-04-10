@@ -102,7 +102,7 @@ export const projects: Project[] = [
     x: 'https://x.com/NFTs2Me',
     tags: ['NFT'],
   },
-  { 
+  {
     type: 'project',
     name: 'Haifu',
     blurb: 'Chase Hype, Manage Wealth, with your AI Waifu',
