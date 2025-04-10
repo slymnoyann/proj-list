@@ -102,6 +102,7 @@ export const projects: Project[] = [
     tags: ['NFT'],
   },
   {
+    type: 'project',
     name: 'Haifu',
     blurb: 'Chase Hype, Manage Wealth, with your AI Waifu',
     logo: '/projects/haifu/logo.png',
