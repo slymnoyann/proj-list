@@ -81,6 +81,26 @@ export const projects: Project[] = [
     x: 'https://x.com/haifudotfun',
     tags: ['AI', 'Waifu'],
   },  
+  {
+    type: 'project',
+    name: 'NovaDubs',
+    blurb: 'High Tech, Low Life, Fat Stacks. A full on-chain casino where you own a stake in the hustle.',
+    logo: '/projects/novadubs/logo.png',
+    banner: '/projects/novadubs/banner.png',
+    website: 'https://x.com/NovaDubsX',
+    x: 'https://x.com/NovaDubsX',
+    tags: ['Gaming', 'Casino'],
+  },  
+  {
+    type: 'project',
+    name: 'Relic',
+    blurb: 'Relic is an NFT Marketplace dedicated to authentic, human expression in a digital world increasingly dominated by AI-generated content',
+    logo: '/projects/relic/logo.png',
+    banner: '/projects/relic/banner.png',
+    website: 'https://www.therelic.art/',
+    x: 'https://x.com/relic_market',
+    tags: ['NFT'],
+  },  
   // Tooling
   {
     type: 'tooling',

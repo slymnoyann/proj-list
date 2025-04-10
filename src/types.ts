@@ -17,6 +17,7 @@ export type Tag =
 | 'Identity' 
 | 'AI'
 | 'Waifu'
+| 'Casino'
 | 'Interoperability' 
 | 'Token API'
 | 'NFT API'
