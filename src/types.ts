@@ -15,6 +15,8 @@ export type Tag =
 | 'Staking' 
 | 'Oracles' 
 | 'Identity' 
+| 'AI'
+| 'Waifu'
 | 'Interoperability' 
 | 'Token API'
 | 'NFT API'

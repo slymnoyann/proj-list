@@ -71,6 +71,16 @@ export const projects: Project[] = [
     x: 'https://x.com/inari_fi',
     tags: ['DeFi', 'Yield'],
   },
+  {
+    type: 'project',
+    name: 'Haifu',
+    blurb: 'Chase Hype, Manage Wealth, with your AI Waifu',
+    logo: '/projects/haifu/logo.png',
+    banner: '/projects/haifu/banner.png',
+    website: 'https://haifu.fun/',
+    x: 'https://x.com/haifudotfun',
+    tags: ['AI', 'Waifu'],
+  },  
   // Tooling
   {
     type: 'tooling',
