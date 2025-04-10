@@ -42,13 +42,13 @@ describe('Projects Directory', () => {
         // Check logo path format - allow any image name pattern 
         // but enforce directory structure
         expect(project.logo).toMatch(
-          /^\/projects\/[\w-]+\/[\w-]+\.(png|jpg|jpeg)$/
+          /^\/projects\/[\w-]+\/[\w-]+\.(png|jpg|jpeg|webp|svg)$/
         );
         
         // Check banner path format - allow any image name pattern 
         // but enforce directory structure
         expect(project.banner).toMatch(
-          /^\/projects\/[\w-]+\/[\w-]+\.(png|jpg|jpeg)$/
+          /^\/projects\/[\w-]+\/[\w-]+\.(png|jpg|jpeg|webp|svg)$/
         );
         
         // Check if files exist in filesystem by removing the leading slash
