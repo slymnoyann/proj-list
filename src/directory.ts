@@ -222,7 +222,7 @@ export const projects: Project[] = [
     tags: ['Oracles', 'Data'],
   },
   {
-    type: 'project',
+    type: 'tooling',
     name: 'NetSepio',
     docs: 'https://docs.netsepio.com/',
     x: 'https://x.com/netsepio',
