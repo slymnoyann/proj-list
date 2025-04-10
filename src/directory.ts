@@ -23,16 +23,6 @@ export const projects: Project[] = [
     docs: 'https://docs.forthekingdom.xyz/ftk',
     tags: ['Gaming'],
   },
-  // {
-  //   type: 'project',
-  //   name: 'LeoFi',
-  //   blurb: 'LeoFi is a modular decentralized exchange (DEX) that redefines liquidity management and trading efficiency. It empowers traders with ultra-low fees and liquidity providers with customizable yield models via hook-integrated custom pools.',
-  //   logo: '/projects/leofi/logo.png',
-  //   banner: '/projects/leofi/banner.png',
-  //   x: 'https://x.com/LeoFi_Hub',
-  //   website: 'https://etn.leofi.xyz/',
-  //   tags: ['DEX', 'AMM', 'DeFi'],
-  // },
   {
     type: 'project',
     name: 'GTX',
@@ -66,7 +56,7 @@ export const projects: Project[] = [
     name: 'Standard',
     blurb: 'Trade high float, high cap Coins. Only on Standard, across all chains. Fully Onchain CLOB and Perps',
     logo: '/projects/standard/logo.png',
-    banner: '/projects/standard/banner.jpg',
+    banner: '/projects/standard/banner.png',
     website: 'https://linktr.ee/standardweb3',
     x: 'https://x.com/standardweb3',
     tags: ['DEX', 'DeFi'],
@@ -111,5 +101,4 @@ export const projects: Project[] = [
     website: 'https://netsepio.com/',
     tags: ['Data'],
   },
-
 ];
