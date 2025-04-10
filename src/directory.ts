@@ -190,4 +190,15 @@ export const projects: Project[] = [
     website: 'https://netsepio.com/',
     tags: ['Data'],
   },
+  {
+    type: 'project',
+    name: 'ChainSight',
+    docs: 'https://docs.chainsight.network/',
+    x: 'https://x.com/Chainsight_',
+    blurb: "Create, share, and scale onchain data pipelines.",
+    logo: '/projects/chainsight/logo.png',
+    banner: '/projects/chainsight/banner.png',
+    website: 'https://chainsight.network/',
+    tags: ['Oracles', 'Data'],
+  },
 ];
