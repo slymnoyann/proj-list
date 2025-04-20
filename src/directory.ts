@@ -266,5 +266,16 @@ export const projects: Project[] = [
     website: 'https://ponder.sh/',
     x: 'https://x.com/ponder_sh',
     tags: ['Data', 'Indexing'],
+  },
+  {
+    type: 'project',
+    name: 'VeloxR',
+    blurb: 'The fastest NFT marketplace based on and backed by the fastest block chain — Rise',
+    status: 'live',
+    logo: '/projects/VeloxR/logo.png',
+    banner: '/projects/VeloxR/banner.png',
+    website: 'https://veloxr.netlify.app/',
+    x: 'https://https://x.com/r_velox',
+    tags: ['NFT'],
   }
 ];
