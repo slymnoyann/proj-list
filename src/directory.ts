@@ -167,6 +167,17 @@ export const projects: Project[] = [
     website: 'https://netsepio.com/',
     tags: ['Data'],
   },
+  {
+    type: 'project',
+    name: 'VeloxR',
+    blurb: 'The fastest NFT marketplace based on and backed by the fastest block chain — Rise',
+    status: 'live',
+    logo: '/projects/VeloxR/logo.png',
+    banner: '/projects/VeloxR/banner.png',
+    website: 'https://veloxr.netlify.app/',
+    x: 'https://https://x.com/r_velox',
+    tags: ['NFT'],
+  },
   // Tooling
   {
     type: 'tooling',
@@ -270,7 +281,7 @@ export const projects: Project[] = [
   {
     type: 'tooling',
     name: 'Flipside',
-    blurb: 'Growth platform for blockchains combining onchain data, wallet scoring, and community activation to make blockchain growth a precise, scientific endeavor.',
+    blurb: 'Growth platform for blockchains combining onchain data, wallet scoring, and community activation to make blockchain growth a precise, scientific art.',
     logo: '/projects/flipside/logo.png',
     banner: '/projects/flipside/banner.png',
     status: 'live',
