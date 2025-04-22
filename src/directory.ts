@@ -266,5 +266,15 @@ export const projects: Project[] = [
     website: 'https://ponder.sh/',
     x: 'https://x.com/ponder_sh',
     tags: ['Data', 'Indexing'],
-  }
+  },
+  {
+    type: 'tooling',
+    name: 'Flipside',
+    blurb: 'Growth platform for blockchains combining onchain data, wallet scoring, and community activation to make blockchain growth a precise, scientific endeavor.',
+    logo: '/projects/flipside/logo.png',
+    banner: '/projects/flipside/banner.png',
+    status: 'live',
+    website: 'https://flipsidecrypto.xyz/',
+    tags: ['Data', 'Indexing'],
+  },
 ];
