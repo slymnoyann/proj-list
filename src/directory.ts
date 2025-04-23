@@ -178,6 +178,28 @@ export const projects: Project[] = [
     x: 'https://https://x.com/r_velox',
     tags: ['NFT'],
   },
+  {
+    type: 'project',
+    name: 'OnChainGm',
+    blurb: 'Your Daily Web3 Ritual',
+    logo: '/projects/onchaingm/logo.jpg',
+    banner: '/projects/onchaingm/banner.jpg',
+    status: 'live',
+    website: 'https://onchaingm.com/',
+    x: 'https://x.com/OnChainGm',
+    tags: [],
+  },
+  {
+    type: 'project', // Choose from: 'project', 'infrastructure', or 'tooling'
+    name: '42Agents.ai',
+    blurb: '42 Agents easily integrates into your communication channels to offer you with round the clock customer support. No more \"wen token\" or \"why tx failed\" keeping your team up at night',
+    logo: '/projects/42-agents-ai/logo.png',
+    status: 'live',
+    x: 'https://x.com/42agents_ai',
+    website: 'https://www.42agents.ai',
+    banner: '/projects/42-agents-ai/banner.png',
+    tags: ['AI', 'DeFi'], // Choose from available tags in types.ts
+  },
   // Tooling
   {
     type: 'tooling',
@@ -287,5 +309,16 @@ export const projects: Project[] = [
     status: 'live',
     website: 'https://flipsidecrypto.xyz/',
     tags: ['Data', 'Indexing'],
+  },
+  {
+    type: 'tooling',
+    name: 'RubyScore',
+    blurb: 'Analytics platform for blockchain and wallet, which combines on-chain data with a massive and constantly growing database containing millions of wallet labels.',
+    logo: '/projects/rubyscore/logo.png',
+    banner: '/projects/rubyscore/banner.png',
+    status: 'live',
+    website: 'https://rubyscore.io/',
+    x: 'https://x.com/rubyscore_io',
+    tags: ['Data'],
   },
 ];
