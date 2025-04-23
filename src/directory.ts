@@ -189,6 +189,17 @@ export const projects: Project[] = [
     x: 'https://x.com/OnChainGm',
     tags: [],
   },
+  {
+    type: 'project', // Choose from: 'project', 'infrastructure', or 'tooling'
+    name: '42Agents.ai',
+    blurb: '42 Agents easily integrates into your communication channels to offer you with round the clock customer support. No more \"wen token\" or \"why tx failed\" keeping your team up at night',
+    logo: '/projects/42-agents-ai/logo.png',
+    status: 'live',
+    x: 'https://x.com/42agents_ai',
+    website: 'https://www.42agents.ai',
+    banner: '/projects/42-agents-ai/banner.png',
+    tags: ['AI', 'DeFi'], // Choose from available tags in types.ts
+  },
   // Tooling
   {
     type: 'tooling',
