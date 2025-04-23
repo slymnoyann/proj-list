@@ -178,6 +178,17 @@ export const projects: Project[] = [
     x: 'https://https://x.com/r_velox',
     tags: ['NFT'],
   },
+  {
+    type: 'project',
+    name: 'OnChainGm',
+    blurb: 'Your Daily Web3 Ritual',
+    logo: '/projects/onchaingm/logo.jpg',
+    banner: '/projects/onchaingm/banner.jpg',
+    status: 'live',
+    website: 'https://onchaingm.com/',
+    x: 'https://x.com/OnChainGm',
+    tags: [],
+  },
   // Tooling
   {
     type: 'tooling',
@@ -287,5 +298,16 @@ export const projects: Project[] = [
     status: 'live',
     website: 'https://flipsidecrypto.xyz/',
     tags: ['Data', 'Indexing'],
+  },
+  {
+    type: 'tooling',
+    name: 'RubyScore',
+    blurb: 'Analytics platform for blockchain and wallet, which combines on-chain data with a massive and constantly growing database containing millions of wallet labels.',
+    logo: '/projects/rubyscore/logo.png',
+    banner: '/projects/rubyscore/banner.png',
+    status: 'live',
+    website: 'https://rubyscore.io/',
+    x: 'https://x.com/rubyscore_io',
+    tags: ['Data'],
   },
 ];
