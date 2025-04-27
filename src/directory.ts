@@ -200,6 +200,17 @@ export const projects: Project[] = [
     banner: '/projects/42-agents-ai/banner.png',
     tags: ['AI', 'DeFi'], // Choose from available tags in types.ts
   },
+  {
+    type: 'project',
+    name: 'Omnihub',
+    blurb: 'The launchpad for creating blockchain collectibles. Create, buy and sell as your most creative ideas come to life on OmniHub.',
+    logo: '/projects/omnihub/logo.png',
+    banner: '/projects/omnihub/banner.png',
+    status: 'live',
+    website: 'https://omnihub.xyz/',
+    x: 'https://x.com/Omni_Hub',
+    tags: ['NFT'],
+  },
   // Tooling
   {
     type: 'tooling',
@@ -331,5 +342,16 @@ export const projects: Project[] = [
     website: 'https://vialabs.io/',
     x: 'https://x.com/VIA_Labs',
     tags: ['Interoperability', 'Bridge', 'Oracles'],
-  }
+  },
+  {
+    type: 'tooling',
+    name: 'Mud',
+    blurb: 'Open-source engine for autonomous worlds. MUD reduces the complexity of building Ethereum apps with a tightly integrated software stack.',
+    logo: '/projects/mud/logo.svg',
+    banner: '/projects/mud/banner.png',
+    status: 'live',
+    website: 'https://mud.dev/',
+    x: 'https://x.com/latticexyz',
+    tags: [],
+  },
 ];
