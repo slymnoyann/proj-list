@@ -333,7 +333,7 @@ export const projects: Project[] = [
     tags: ['Data'],
   },
   {
-    type: 'infrastructure',
+    type: 'tooling',
     name: 'VIA Labs',
     blurb: 'VIA Labs equips developers with tools to scale across multiple blockchain networks, enabling seamless and efficient omnichain interoperability.',
     logo: '/projects/vialabs/logo.png',
