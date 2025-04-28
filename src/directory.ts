@@ -174,7 +174,7 @@ export const projects: Project[] = [
     status: 'live',
     logo: '/projects/VeloxR/logo.png',
     banner: '/projects/VeloxR/banner.png',
-    website: 'https://veloxr.netlify.app/',
+    website: 'https://veloxr.xyz/',
     x: 'https://https://x.com/r_velox',
     tags: ['NFT'],
   },
