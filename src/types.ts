@@ -2,6 +2,8 @@ export type ProjectType = 'project' | 'tooling' | 'infrastructure';
 
 export type ProjectStatus = 'coming soon' | 'waitlist' | 'live';
 
+export type Native = boolean | undefined;
+
 // Add more tags as needed
 export type Tag = 
 | 'AMM' 
@@ -40,4 +42,5 @@ export interface Project {
   website?: string; // website url
   docs?: string; // documentation url
   tags: Tag[]; // project tags for filtering/categorization
+  native?: Native; // is the project native to RISE -> undefined should default to false
 }
