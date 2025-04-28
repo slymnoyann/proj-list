@@ -10,6 +10,7 @@ export const projects: Project[] = [
     banner: '/projects/gaspump/banner.png',
     status: 'live',
     x: 'https://x.com/Gaspump_swap',
+    native: true,
     website: 'https://gaspump.network/swap',
     tags: ['DeFi', 'AMM', 'DEX'],
   },
@@ -23,6 +24,7 @@ export const projects: Project[] = [
     x: 'https://x.com/4thekingdom_xyz',
     website: 'https://forthekingdom.xyz/',
     docs: 'https://docs.forthekingdom.xyz/ftk',
+    native: true,
     tags: ['Gaming'],
   },
   {
@@ -33,6 +35,7 @@ export const projects: Project[] = [
     banner: '/projects/b3x/banner.png',
     status: 'live',
     x: 'https://x.com/b3xai',
+    native: false,
     website: 'https://testnet.b3x.ai/',
     tags: ['DeFi', 'DEX'],
   },
@@ -66,6 +69,7 @@ export const projects: Project[] = [
     status: 'live',
     website: 'https://rise.clober.io/',
     x: 'https://x.com/CloberDEX',
+    native: false,
     tags: ['DEX', 'DeFi'],
   },
   {
@@ -77,6 +81,7 @@ export const projects: Project[] = [
     status: 'live',
     website: 'https://linktr.ee/standardweb3',
     x: 'https://x.com/standardweb3',
+    native: false,
     tags: ['DEX', 'DeFi'],
   },
   {
@@ -88,6 +93,7 @@ export const projects: Project[] = [
     status: 'live',
     website: 'https://inarifi.com',
     x: 'https://x.com/inari_fi',
+    native: true,
     tags: ['DeFi', 'Yield'],
   },
   {
@@ -99,6 +105,7 @@ export const projects: Project[] = [
     status: 'coming soon',
     x: 'https://x.com/LeoFi_Hub',
     website: 'https://etn.leofi.xyz/',
+    native: false,
     tags: ['DEX', 'AMM', 'DeFi'],
   },
   {
@@ -110,6 +117,7 @@ export const projects: Project[] = [
     status: 'coming soon',
     x: 'https://x.com/ChessOnChain',
     website: 'https://play.chessonchain.io/',
+    native: false,
     tags: ['Gaming'],
   },
   {
@@ -120,6 +128,7 @@ export const projects: Project[] = [
     banner: '/projects/nft2me/banner.jpeg',
     status: 'live',
     website: 'https://nfts2me.com/app/rise-testnet/',
+    native: false,
     x: 'https://x.com/NFTs2Me',
     tags: ['NFT'],
   },
@@ -132,6 +141,7 @@ export const projects: Project[] = [
     status: 'waitlist',
     website: 'https://haifu.fun/',
     x: 'https://x.com/haifudotfun',
+    native: false,
     tags: ['AI', 'Waifu'],
   },  
   {
@@ -142,6 +152,7 @@ export const projects: Project[] = [
     banner: '/projects/novadubs/banner.png',
     status: 'waitlist',
     x: 'https://x.com/NovaDubsX',
+    native: true,
     tags: ['Gaming', 'Casino'],
   },  
   {
@@ -153,6 +164,7 @@ export const projects: Project[] = [
     status: 'waitlist',
     website: 'https://www.therelic.art/',
     x: 'https://x.com/relic_market',
+    native: true,
     tags: ['NFT'],
   },  
   {
@@ -165,6 +177,7 @@ export const projects: Project[] = [
     logo: '/projects/netsepio/logo.png',
     banner: '/projects/netsepio/banner.png',
     website: 'https://netsepio.com/',
+    native: false,
     tags: ['Data'],
   },
   {
@@ -176,6 +189,7 @@ export const projects: Project[] = [
     banner: '/projects/VeloxR/banner.png',
     website: 'https://veloxr.xyz/',
     x: 'https://https://x.com/r_velox',
+    native: true,
     tags: ['NFT'],
   },
   {
@@ -187,10 +201,11 @@ export const projects: Project[] = [
     status: 'live',
     website: 'https://onchaingm.com/',
     x: 'https://x.com/OnChainGm',
+    native: false,
     tags: [],
   },
   {
-    type: 'project', // Choose from: 'project', 'infrastructure', or 'tooling'
+    type: 'tooling',
     name: '42Agents.ai',
     blurb: '42 Agents easily integrates into your communication channels to offer you with round the clock customer support. No more \"wen token\" or \"why tx failed\" keeping your team up at night',
     logo: '/projects/42-agents-ai/logo.png',
@@ -207,6 +222,7 @@ export const projects: Project[] = [
     logo: '/projects/omnihub/logo.png',
     banner: '/projects/omnihub/banner.png',
     status: 'live',
+    native: false,
     website: 'https://omnihub.xyz/',
     x: 'https://x.com/Omni_Hub',
     tags: ['NFT'],
