@@ -370,4 +370,14 @@ export const projects: Project[] = [
     x: 'https://x.com/latticexyz',
     tags: [],
   },
+  {
+    type: 'project',
+    name: 'Centuari',
+    blurb: 'Fixed-Rate Order Book Lending with Curated Vaults and Trust-Based Uncollateralized Borrowing',
+    logo: '/projects/centuari/logo.png',
+    banner: '/projects/centuari/banner.png',
+    status: 'coming soon',
+    x: 'https://x.com/CentuariLabs',
+    tags: ["DeFi", "DAO", "Yield"],
+  }
 ];
