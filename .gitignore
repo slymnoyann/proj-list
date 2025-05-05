@@ -31,3 +31,6 @@ coverage/
 logs/
 *.log
 CLAUDE.md
+
+# Script Generated
+/src/*.js
