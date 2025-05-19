@@ -65,7 +65,7 @@ export const projects: Project[] = [
     name : 'NitroDex',
     blurb: 'NitroDex is a decentralized exchange (DEX) on the RISE Network. It is a fully on-chain CLOB DEX with a focus on high-performance trading and low fees.',
     logo: '/projects/nitrodex/logo.jpg',
-    banner: '/projects/nitrodex/banner.png',
+    banner: '/projects/nitrodex/banner.jpg',
     status: 'live',
     website: 'https://www.nitrodex.xyz/',
     x: 'https://x.com/nitro_dex',
