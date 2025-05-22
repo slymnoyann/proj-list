@@ -389,5 +389,17 @@ export const projects: Project[] = [
     status: 'coming soon',
     native: true,
     tags: ['DeFi', 'Yield'],
+  },
+  {
+    type: 'tooling',
+    name: 'AVA AI',
+    blurb: 'AVA AI is an advanced Web3 infrastructure platform that leverages artificial intelligence to streamline decentralized app development. From smart contract generation and automated backend setup to voice/facial recognition and multi-chain deployment, AVA AI empowers developers to build, test, and deploy dApps faster and smarter. Designed for both beginners and enterprises, it bridges the gap between AI and blockchain by providing intuitive tools, natural language interfaces, and automated workflows.',
+    logo: '/projects/AvaAILabs/logo.png',
+    banner: '/projects/AvaAILabs/banner.png',
+    status: 'waitlist',
+    website: 'https://avaailabs.com/',
+    x: 'https://x.com/AvaAiLabs',
+    native: true,
+    tags: ['AI']
   }
 ];
