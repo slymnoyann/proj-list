@@ -188,7 +188,7 @@ export const projects: Project[] = [
     logo: '/projects/VeloxR/logo.png',
     banner: '/projects/VeloxR/banner.png',
     website: 'https://veloxr.xyz/',
-    x: 'https://https://x.com/r_velox',
+    x: 'https://x.com/r_velox',
     native: true,
     tags: ['NFT'],
   },
