@@ -9,7 +9,7 @@ This repository serves as a directory of all RISE apps, tools, and infrastructur
 2. **Add your project logo and banner images**:
    - Create a directory for your project: `projects/your-project-name/`
    - Add a square logo (250x250px): `projects/your-project-name/logo.png`
-   - Add a banner image (1500x500px): `projects/your-project-name/banner.png`
+   - Add a banner image (1000x500px): `projects/your-project-name/banner.png`
 
 3. **Update the directory**:
    - Add your project to `src/directory.ts`
@@ -39,7 +39,7 @@ This repository serves as a directory of all RISE apps, tools, and infrastructur
 
 - Images must be in PNG format
 - Logo must be 250x250px square
-- Banner must be 1500x500px
+- Banner must be 1000x500px
 - Blurb should be 150 words maximum
 - All fields are required
 - All tests must pass
