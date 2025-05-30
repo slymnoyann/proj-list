@@ -1,0 +1,17 @@
+name: Notify Portal Explorer
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Portal Explorer repo workflow_dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.TRIGGER_PORTAL_EXPLORER }}
+          repository: risechain/rise-testnet-explore
+          event-type: submodule-updated
+          client-payload: '{"submodule_updated": true}'
