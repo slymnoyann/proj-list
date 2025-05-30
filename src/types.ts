@@ -1,4 +1,4 @@
-export type ProjectType = 'project' | 'tooling' | 'infrastructure';
+export type ProjectType = 'project' | 'tooling' | 'gaming' | 'nft-collection' ;
 
 export type ProjectStatus = 'coming soon' | 'waitlist' | 'live';
 

@@ -19,7 +19,7 @@ describe('Projects Directory', () => {
   });
   
   test('project types should be valid', () => {
-    const validTypes = ['project', 'infrastructure', 'tooling'];
+    const validTypes = ['project', 'tooling', 'gaming', 'nft-collection'];
     projects.forEach(project => {
       expect(validTypes).toContain(project.type);
     });
