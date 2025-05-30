@@ -27,7 +27,7 @@ export const GAMES: Project[] = [
     tags: ['Gaming'],
   },
   {
-    type: 'project',
+    type: 'gaming',
     name: 'OnChainGm',
     blurb: 'Your Daily Web3 Ritual',
     logo: '/projects/onchaingm/logo.jpg',
