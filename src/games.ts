@@ -40,12 +40,12 @@ export const GAMES: Project[] = [
   },
   {
     type: 'gaming',
-    name: 'Rice Race',
+    name: 'Type Race',
     blurb: 'Challenge yourself in this fast-paced typing game built on RSIE. Experience blockchain-integrated typing challenges that test your speed and accuracy!',
     logo: '/projects/rice-race/logo.png',
     banner: '/projects/rice-race/banner.png',
     status: 'live',
-    website: 'https://risearacer.gaswars.fun',
+    website: 'https://typerace.gaswars.fun',
     x: 'https://x.com/buildingApps',
     tags: ['Gaming']
   }
