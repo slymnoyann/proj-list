@@ -222,4 +222,28 @@ export const APPS: Project[] = [
     native: true,
     tags: ['DeFi', 'Yield'],
   },
+  {
+    type: 'project',
+    name: 'PredictMarket',
+    blurb: "PredictMarket lets you create and trade on decentralized prediction markets. Bet on crypto price movements or community-driven outcomes, compete with others, and earn rewards for being right. Powered by on-chain price feeds and a transparent, open platform.",
+    logo: '/projects/predictmarket/logo.png',
+    banner: '/projects/predictmarket/banner.png',
+    status: 'live',
+    x: 'https://x.com/buildingApps',
+    website: 'https://rise.predictmarket.xyz/',
+    native: false,
+    tags: ['DeFi'],
+  },
+  {
+    type: 'project',
+    name: 'NetrumLabs',
+    blurb: "Netrum Labs is pioneering voice-powered AI tools for Web3, making it easy for anyone to create, audit, and deploy smart contracts — securely, instantly, and naturally.",
+    logo: '/projects/netrumLabs/logo.png',
+    banner: '/projects/netrumLabs/banner.png',
+    status: 'live',
+    x: 'https://x.com/netrum_ai',
+    website: 'https://netrumlabs.com/',
+    native: true,
+    tags: ['AI'],
+  }
 ]
