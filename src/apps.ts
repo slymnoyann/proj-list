@@ -245,5 +245,17 @@ export const APPS: Project[] = [
     website: 'https://netrumlabs.com/',
     native: true,
     tags: ['AI'],
+  },
+  {
+    type: 'project',
+    name: 'Pheasant Network',
+    blurb: "Pheasant Network is an Intent-centric Bridge and Cross-chain Swap.",
+    logo: '/projects/pheasant-network/logo.png',
+    banner: '/projects/pheasant-network/banner.png',
+    status: 'live',
+    x: 'https://x.com/PheasantNetwork',
+    website: 'https://pheasant.network/',
+    native: false,
+    tags: ['DEX', 'DeFi'],
   }
 ]
