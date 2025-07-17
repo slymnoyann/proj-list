@@ -78,7 +78,7 @@ export const APPS: Project[] = [
     logo: '/projects/standard/logo.png',
     banner: '/projects/standard/banner.png',
     status: 'live',
-    website: 'https://linktr.ee/standardweb3',
+    website: 'https://testnet.standardweb3.com/rise-testnet',
     x: 'https://x.com/standardweb3',
     native: false,
     tags: ['DEX', 'DeFi'],
@@ -160,7 +160,7 @@ export const APPS: Project[] = [
     docs: 'https://docs.netsepio.com/',
     x: 'https://x.com/netsepio',
     status: 'live',
-    blurb: "NetSepio powers a DePIN-backed internet that's private, secure, and agentic - connecting users and AI agents through trusted, decentralized networks.",
+    blurb: "NetSepio powers a DePIN-backed internet that’s private, secure, and agentic - connecting users and AI agents through trusted, decentralized networks.",
     logo: '/projects/netsepio/logo.png',
     banner: '/projects/netsepio/banner.png',
     website: 'https://netsepio.com/',
@@ -236,6 +236,18 @@ export const APPS: Project[] = [
   },
   {
     type: 'project',
+    name: 'NetrumLabs',
+    blurb: "Netrum Labs is pioneering voice-powered AI tools for Web3, making it easy for anyone to create, audit, and deploy smart contracts — securely, instantly, and naturally.",
+    logo: '/projects/netrumLabs/logo.png',
+    banner: '/projects/netrumLabs/banner.png',
+    status: 'live',
+    x: 'https://x.com/netrum_ai',
+    website: 'https://netrumlabs.com/',
+    native: true,
+    tags: ['AI'],
+  },
+  {
+    type: 'project',
     name: 'Pheasant Network',
     blurb: "Pheasant Network is an Intent-centric Bridge and Cross-chain Swap.",
     logo: '/projects/pheasant-network/logo.png',
@@ -245,5 +257,5 @@ export const APPS: Project[] = [
     website: 'https://pheasant.network/',
     native: false,
     tags: ['DEX', 'DeFi'],
-  },
+  }
 ]
