@@ -222,7 +222,6 @@ export const APPS: Project[] = [
     native: true,
     tags: ['DeFi', 'Yield'],
   },
-
     {
       type: 'project',
       name: 'RiseChad',
@@ -235,5 +234,4 @@ export const APPS: Project[] = [
       native: true,
       tags: ['Casino']
     },
-  
 ]
