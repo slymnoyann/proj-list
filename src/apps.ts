@@ -282,4 +282,16 @@ export const APPS: Project[] = [
     native: false,
     tags: ['Oracles'],
   },
+  {
+    type: 'project',
+    name: 'Rise Passport',
+    blurb: 'Rise Passport is an on‑chain identity and collectible for the Rise ecosystem—mint your verifiable passport NFT, showcase roles and achievements, and share it anywhere.',
+    logo: '/projects/rise-passport/logo.png',
+    banner: '/projects/rise-passport/banner.png',
+    status: 'live',
+    website: 'https://rise-passport.fun',
+    x: 'https://x.com/c_nitram_',
+    native: true,
+    tags: ['Identity', 'NFT'],
+  },
 ]
