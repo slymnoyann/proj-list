@@ -302,7 +302,7 @@ export const APPS: Project[] = [
     banner: '/projects/nft-auctions/banner.png',
     status: 'live',
     website: 'https://nfts-auction.netlify.app/',
-    x: 'https://x.com/nft_auctions',
+    x: 'https://x.com/realchriswilder',
     native: true,
     tags: ['NFT'],
   },
