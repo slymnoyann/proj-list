@@ -260,6 +260,18 @@ export const APPS: Project[] = [
   },
   {
     type: 'project',
+    name: 'RISE Punks',
+    blurb : 'A unique collection of cyberpunk survivors fighting for freedom in a post-apocalyptic wasteland. Built on RISE Chain - no gas, no gods, just Punks.',
+    logo: '/projects/RisePunks/logo.png',
+    banner: '/projects/RisePunks/banner.jpg',
+    status: 'live',
+    x: 'https://x.com/RisePunks',
+    website: 'https://x.com/RisePunks',
+    native: true,
+    tags: ['NFT'],
+  },
+  {
+    type: 'project',
     name: 'RiseChad',
     blurb: 'RiseChad is a fully onchain degen casino built on Rise Chain and powered by verifiable randomness (VRF). Players enter flash, rush, dream and jack pots. Each round selects one winner using Rise Chain’s VRF system. No middlemen, no off-chain oracles — just pure math, and instant payouts. ',
     logo: '/projects/risechad/logo.png',
@@ -269,18 +281,6 @@ export const APPS: Project[] = [
     website: 'https://risechad.fun',
     native: true,
     tags: ['Casino']
-  },
-  {
-    type: 'project',
-    name: 'Blocksense',
-    blurb: 'Blocksense is a permissionless oracle network that enables builders to bring real-world data on-chain with maximum flexibility and efficiency. Our WebAssembly-based SDK enables the seamless creation of blockchain oracles that can leverage both CPU and GPU computations.',
-    logo: '/projects/blocksense/logo.png',
-    banner: '/projects/blocksense/banner.png',
-    status: 'live',
-    website: 'https://blocksense.network',
-    x: 'https://x.com/blocksense_',
-    native: false,
-    tags: ['Oracles'],
   },
   {
     type: 'project',
