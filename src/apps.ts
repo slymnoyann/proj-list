@@ -333,7 +333,7 @@ export const APPS: Project[] = [
   type: "project",
   name: "ZNS Connect",
   blurb: 
-    "Decentralized naming solutions for the #Web3',Personalized for blockchain interactions with #AI",
+    "Decentralized naming solutions for the #Web3, personalized for blockchain interactions with #AI",
   logo: "/projects/ZNS Connect/logo.png",
   banner: "/projects/ZNS Connect/banner.png",
   status: "live",
