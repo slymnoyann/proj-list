@@ -334,8 +334,8 @@ export const APPS: Project[] = [
   name: "ZNS Connect",
   blurb: 
     "Decentralized naming solutions for the #Web3, personalized for blockchain interactions with #AI",
-  logo: "/projects/ZNS Connect/logo.png",
-  banner: "/projects/ZNS Connect/banner.png",
+  logo: "/projects/ZNS-Connect/logo.png",
+  banner: "/projects/ZNS-Connect/banner.png",
   status: "live",
   website: "https://zns.bio/",
   x: "https://x.com/ZNSConnect",
